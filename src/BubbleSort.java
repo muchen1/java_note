@@ -13,6 +13,7 @@ public class BubbleSort {
 
     /**
      * 冒泡排序算法
+     * 最好及最坏情况下时间复杂度都为O(n2)
      * @param test [表示需要进行排序的数组]
      */
     private static void bubbleSort(int[] test) {
@@ -39,6 +40,8 @@ public class BubbleSort {
 
     /**
      * 改进之后的冒泡排序算法 -- 通过增加是否交换顺序的标志，来达到减少循环的次数
+     * 改进之后并不能减少交互的次数，只是减少了循环次数
+     * 最好情况下的时间复杂度为O(n)
      * @param test [表示需要进行排序的数组]
      */
     private static void bubbleSortImproved(int[] test) {
